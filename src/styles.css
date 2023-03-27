@@ -1,11 +1,97 @@
-/* font-family: 'Nunito', sans-serif;
- font-family: 'Roboto', sans-serif; */
+:root {
+	--primary-color: #e4b363;
+	--secondary-color: #ef6461;
+	--background-color-special: #e0dfd5;
+	--background-color-main: #e8e9eb;
+	--text-color: #313638;
+	--header-font: "Roboto", sans-serif;
+	--text-font: "Nunito", sans-serif;
+}
+
+body {
+	background-color: var(--background-color-main);
+	color: var(--text-color);
+}
+
+h1,
+h2,
+h4 {
+	font-family: var(--header-font);
+}
+
+h3,
+p {
+	font-family: var(--text-font);
+}
 
 h1 {
-	font-family: "Roboto", sans-serif;
 	font-weight: 500px;
+	font-size: 56px;
+	margin-bottom: 20px;
 }
 
 h2 {
-	font-family: "Nunito", sans-serif;
+	text-align: center;
+	margin: 50px 0px;
+	font-size: 40px;
+}
+
+h3 {
+	line-height: 1.3em;
+	margin-bottom: 30px;
+}
+
+.section-1 {
+	background-color: var(--background-color-special);
+	padding: 100px 0px;
+}
+
+.section-2 {
+	padding: 20px;
+}
+
+.section-3 {
+	background-color: var(--background-color-special);
+	padding: 20px 0px;
+}
+
+.btn-primary {
+	background-color: var(--primary-color);
+	border: none;
+	color: black;
+	padding: 15px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin-top: 10px;
+}
+
+.btn-primary:hover {
+	background-color: var(--secondary-color);
+}
+
+.btn-outline-primary {
+	padding: 10px;
+	border-color: var(--text-color);
+	color: var(--text-color);
+}
+
+.btn-outline-primary:hover {
+	background-color: transparent;
+	border-color: var(--text-color);
+}
+
+.btn-contact {
+	margin: 30px auto;
+	max-width: 30%;
+}
+
+.box {
+	width: 800px;
+}
+
+.project {
+	margin-bottom: 50px;
+}
+
+.skill {
+	margin: 10px 0px;
 }
