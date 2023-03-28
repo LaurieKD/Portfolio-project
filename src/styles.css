@@ -58,6 +58,12 @@ footer {
 	padding-bottom: 10px;
 }
 
+.active {
+	text-decoration: underline;
+	text-decoration-color: var(--primary-color);
+	text-decoration-thickness: 3px;
+}
+
 .section-1 {
 	padding: 100px 0px;
 	max-width: 800px;
