@@ -124,7 +124,20 @@ nav {
 }
 
 @media (max-width: 767px) {
+	h1,
+	h2,
+	h3,
+	h4,
+	p {
+		text-align: center;
+	}
 	h3 {
 		font-size: 18px;
+	}
+
+	.btn-projects {
+		display: block;
+		margin: 0 auto;
+		max-width: 50%;
 	}
 }
